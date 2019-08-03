@@ -12,6 +12,7 @@ public class WikiSearch {
 		System.setProperty("webdriver.chrome.driver", "src/resources/drivers/chromedriver");
 		 driver = new ChromeDriver();
 		 driver.get("https://www.wikipedia.org");
+		 System.out.println("The website has been opened");
 		
 		
 	}
