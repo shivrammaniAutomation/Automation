@@ -22,7 +22,7 @@ public class GoogleTest {
 			 driver.findElement(By.name("q")).sendKeys("Automation");
 			 //click on the Google Search button
 			 driver.findElement(By.name("btnK")).click();
-			 
+			 System.out.println("Test completed");
 			
 			
 	
