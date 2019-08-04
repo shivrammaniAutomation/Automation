@@ -16,6 +16,8 @@ public class GoogleTest {
 			System.setProperty("webdriver.chrome.driver", "src/resources/drivers/chromedriver");
 			 driver = new ChromeDriver();
 			 driver.get("https://www.google.co.in");
+			 System.out.println("The website google has been opened");
+			 
 			
 			
 	
