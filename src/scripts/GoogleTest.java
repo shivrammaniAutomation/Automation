@@ -18,9 +18,7 @@ public class GoogleTest {
 			 driver = new ChromeDriver();
 			 driver.get("https://www.google.co.in");
 			 System.out.println("The website google has been opened");
-			 //type something in the Google search box
 			 driver.findElement(By.name("q")).sendKeys("Automation");
-			 //click on the Google Search button
 			 driver.findElement(By.name("btnK")).click();
 			 System.out.println("Test completed");
 			
